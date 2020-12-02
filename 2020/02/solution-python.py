@@ -33,8 +33,6 @@ def part_2(password_reqs):
 
     if (password[f_char_index] == letter) != (password[l_char_index] == letter): 
       counter+=1
-      
-
 
   print("Amount of valid passwords: {} out of {}.".format(counter, len(password_reqs)))
 
